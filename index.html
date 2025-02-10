@@ -6,10 +6,37 @@
   <meta http-equiv="refresh" content="3; url=https://linktr.ee/omonukko">
   <title>Redirecting...</title>
   <meta name="theme-color" content="#777000">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      font-size: 24px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+
+    p {
+      opacity: 1;
+      animation: fadeOut 1s ease-in-out 2s forwards;
+    }
+  </style>
 </head>
 <body>
-  <p>
-    Redirecting...<br>
-  </p>
+  <p>Redirecting...</p>
 </body>
 </html>
